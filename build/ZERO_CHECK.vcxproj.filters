@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ZZS\Desktop\bky\pybind_dll_工程版\build\CMakeFiles\69427fa0578dd835f4551991ede02694\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{7556E59A-BAF1-356D-B8BE-FB5F252A2900}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

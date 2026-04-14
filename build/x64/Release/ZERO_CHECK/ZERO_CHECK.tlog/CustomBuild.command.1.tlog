@@ -1,0 +1,10 @@
+^C:\USERS\ZZS\DESKTOP\BKY\PYBIND_DLL_工程版\BUILD\CMAKEFILES\69427FA0578DD835F4551991EDE02694\GENERATE.STAMP.RULE
+setlocal
+E:\CMake\bin\cmake.exe -SC:/Users/ZZS/Desktop/bky/pybind_dll_工程版 -BC:/Users/ZZS/Desktop/bky/pybind_dll_工程版/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/ZZS/Desktop/bky/pybind_dll_工程版/build/algo_plugin.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

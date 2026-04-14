@@ -1,0 +1,1554 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CMake/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "E:/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "E:/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "E:/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "E:/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "E:/CMake/share/cmake-4.3/Modules/"
+    found: "E:/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "D:\\adb\\platform-tools\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "E:\\nodejs\\"
+        - "E:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "E:\\CMake\\bin"
+        - "E:\\Python\\Scripts\\"
+        - "E:\\Python\\"
+        - "C:\\Users\\ZZS\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "E:\\PyCharm 2022.3.3\\bin"
+        - "E:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\ZZS\\AppData\\Roaming\\npm"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      閫傜敤浜?.NET Framework MSBuild 鐗堟湰 18.3.0-release-26070-10+3972042b7
+      鐢熸垚鍚姩鏃堕棿涓?2026/3/17 16:03:56銆?
+      
+      鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\Users\\ZZS\\Desktop\\bky\\pybind_dll_宸ョ▼鐗圽build\\CMakeFiles\\4.3.0-rc3\\CompilerIdC\\CompilerIdC.vcxproj鈥?榛樿鐩爣)銆?
+      PrepareForBuild:
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\鈥濄€?
+        宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\CompilerIdC.tlog\\鈥濄€?
+      InitializeBuildStatus:
+        姝ｅ湪鍒涘缓鈥淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+      ClCompile:
+        E:\\VisualStudio\\community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        E:\\VisualStudio\\community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\ZZS\\Desktop\\bky\\pybind_dll_宸ョ▼鐗圽build\\CMakeFiles\\4.3.0-rc3\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=E:\\VisualStudio\\community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        姝ｅ湪鍒犻櫎鏂囦欢鈥淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+      宸插畬鎴愮敓鎴愰」鐩€淐:\\Users\\ZZS\\Desktop\\bky\\pybind_dll_宸ョ▼鐗圽build\\CMakeFiles\\4.3.0-rc3\\CompilerIdC\\CompilerIdC.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+      
+      宸叉垚鍔熺敓鎴愩€?
+          0 涓鍛?
+          0 涓敊璇?
+      
+      宸茬敤鏃堕棿 00:00:01.56
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/ZZS/Desktop/bky/pybind_dll_工程版/build/CMakeFiles/4.3.0-rc3/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "E:/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "E:/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "E:/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "E:/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "E:/VisualStudio/community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/adb/platform-tools/"
+      - "C:/Program Files/Git/cmd/"
+      - "E:/nodejs/"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/"
+      - "E:/CMake/bin/"
+      - "E:/Python/Scripts/"
+      - "E:/Python/"
+      - "C:/Users/ZZS/AppData/Local/Microsoft/WindowsApps/"
+      - "E:/PyCharm 2022.3.3/bin/"
+      - "E:/Microsoft VS Code/bin/"
+      - "C:/Users/ZZS/AppData/Roaming/npm/"
+    searched_directories:
+      - "E:/VisualStudio/community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.com"
+    found: "E:/VisualStudio/community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "D:\\adb\\platform-tools\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "E:\\nodejs\\"
+        - "E:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "E:\\CMake\\bin"
+        - "E:\\Python\\Scripts\\"
+        - "E:\\Python\\"
+        - "C:\\Users\\ZZS\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "E:\\PyCharm 2022.3.3\\bin"
+        - "E:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\ZZS\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "E:/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "E:/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "E:/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "E:/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "E:/VisualStudio/community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/adb/platform-tools/"
+      - "C:/Program Files/Git/cmd/"
+      - "E:/nodejs/"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/"
+      - "E:/CMake/bin/"
+      - "E:/Python/Scripts/"
+      - "E:/Python/"
+      - "C:/Users/ZZS/AppData/Local/Microsoft/WindowsApps/"
+      - "E:/PyCharm 2022.3.3/bin/"
+      - "E:/Microsoft VS Code/bin/"
+      - "C:/Users/ZZS/AppData/Roaming/npm/"
+    searched_directories:
+      - "E:/VisualStudio/community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.com"
+      - "E:/VisualStudio/community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.exe"
+      - "E:/VisualStudio/community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "D:/adb/platform-tools/lld-link.com"
+      - "D:/adb/platform-tools/lld-link.exe"
+      - "D:/adb/platform-tools/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "E:/nodejs/lld-link.com"
+      - "E:/nodejs/lld-link.exe"
+      - "E:/nodejs/lld-link"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "E:/CMake/bin/lld-link.com"
+      - "E:/CMake/bin/lld-link.exe"
+      - "E:/CMake/bin/lld-link"
+      - "E:/Python/Scripts/lld-link.com"
+      - "E:/Python/Scripts/lld-link.exe"
+      - "E:/Python/Scripts/lld-link"
+      - "E:/Python/lld-link.com"
+      - "E:/Python/lld-link.exe"
+      - "E:/Python/lld-link"
+      - "C:/Users/ZZS/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/ZZS/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/ZZS/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "E:/PyCharm 2022.3.3/bin/lld-link.com"
+      - "E:/PyCharm 2022.3.3/bin/lld-link.exe"
+      - "E:/PyCharm 2022.3.3/bin/lld-link"
+      - "E:/Microsoft VS Code/bin/lld-link.com"
+      - "E:/Microsoft VS Code/bin/lld-link.exe"
+      - "E:/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/ZZS/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/ZZS/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/ZZS/AppData/Roaming/npm/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "D:\\adb\\platform-tools\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "E:\\nodejs\\"
+        - "E:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "E:\\CMake\\bin"
+        - "E:\\Python\\Scripts\\"
+        - "E:\\Python\\"
+        - "C:\\Users\\ZZS\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "E:\\PyCharm 2022.3.3\\bin"
+        - "E:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\ZZS\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "E:/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "E:/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "E:/VisualStudio/community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/adb/platform-tools/"
+      - "C:/Program Files/Git/cmd/"
+      - "E:/nodejs/"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/"
+      - "E:/CMake/bin/"
+      - "E:/Python/Scripts/"
+      - "E:/Python/"
+      - "C:/Users/ZZS/AppData/Local/Microsoft/WindowsApps/"
+      - "E:/PyCharm 2022.3.3/bin/"
+      - "E:/Microsoft VS Code/bin/"
+      - "C:/Users/ZZS/AppData/Roaming/npm/"
+    searched_directories:
+      - "E:/VisualStudio/community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.com"
+    found: "E:/VisualStudio/community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "D:\\adb\\platform-tools\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "E:\\nodejs\\"
+        - "E:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "E:\\CMake\\bin"
+        - "E:\\Python\\Scripts\\"
+        - "E:\\Python\\"
+        - "C:\\Users\\ZZS\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "E:\\PyCharm 2022.3.3\\bin"
+        - "E:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\ZZS\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "E:/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "E:/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "E:/VisualStudio/community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/adb/platform-tools/"
+      - "C:/Program Files/Git/cmd/"
+      - "E:/nodejs/"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/"
+      - "E:/CMake/bin/"
+      - "E:/Python/Scripts/"
+      - "E:/Python/"
+      - "C:/Users/ZZS/AppData/Local/Microsoft/WindowsApps/"
+      - "E:/PyCharm 2022.3.3/bin/"
+      - "E:/Microsoft VS Code/bin/"
+      - "C:/Users/ZZS/AppData/Roaming/npm/"
+    searched_directories:
+      - "E:/VisualStudio/community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt.com"
+      - "E:/VisualStudio/community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt.exe"
+      - "E:/VisualStudio/community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "D:/adb/platform-tools/mt.com"
+      - "D:/adb/platform-tools/mt.exe"
+      - "D:/adb/platform-tools/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "E:/nodejs/mt.com"
+      - "E:/nodejs/mt.exe"
+      - "E:/nodejs/mt"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/mt.com"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/mt.exe"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/mt"
+      - "E:/CMake/bin/mt.com"
+      - "E:/CMake/bin/mt.exe"
+      - "E:/CMake/bin/mt"
+      - "E:/Python/Scripts/mt.com"
+      - "E:/Python/Scripts/mt.exe"
+      - "E:/Python/Scripts/mt"
+      - "E:/Python/mt.com"
+      - "E:/Python/mt.exe"
+      - "E:/Python/mt"
+      - "C:/Users/ZZS/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/ZZS/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/ZZS/AppData/Local/Microsoft/WindowsApps/mt"
+      - "E:/PyCharm 2022.3.3/bin/mt.com"
+      - "E:/PyCharm 2022.3.3/bin/mt.exe"
+      - "E:/PyCharm 2022.3.3/bin/mt"
+      - "E:/Microsoft VS Code/bin/mt.com"
+      - "E:/Microsoft VS Code/bin/mt.exe"
+      - "E:/Microsoft VS Code/bin/mt"
+      - "C:/Users/ZZS/AppData/Roaming/npm/mt.com"
+      - "C:/Users/ZZS/AppData/Roaming/npm/mt.exe"
+      - "C:/Users/ZZS/AppData/Roaming/npm/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "D:\\adb\\platform-tools\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "E:\\nodejs\\"
+        - "E:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "E:\\CMake\\bin"
+        - "E:\\Python\\Scripts\\"
+        - "E:\\Python\\"
+        - "C:\\Users\\ZZS\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "E:\\PyCharm 2022.3.3\\bin"
+        - "E:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\ZZS\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "E:/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "E:/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "E:/VisualStudio/community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/adb/platform-tools/"
+      - "C:/Program Files/Git/cmd/"
+      - "E:/nodejs/"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/"
+      - "E:/CMake/bin/"
+      - "E:/Python/Scripts/"
+      - "E:/Python/"
+      - "C:/Users/ZZS/AppData/Local/Microsoft/WindowsApps/"
+      - "E:/PyCharm 2022.3.3/bin/"
+      - "E:/Microsoft VS Code/bin/"
+      - "C:/Users/ZZS/AppData/Roaming/npm/"
+    searched_directories:
+      - "E:/VisualStudio/community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lib.com"
+    found: "E:/VisualStudio/community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "D:\\adb\\platform-tools\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "E:\\nodejs\\"
+        - "E:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "E:\\CMake\\bin"
+        - "E:\\Python\\Scripts\\"
+        - "E:\\Python\\"
+        - "C:\\Users\\ZZS\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "E:\\PyCharm 2022.3.3\\bin"
+        - "E:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\ZZS\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "E:/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "E:/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "E:/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "E:/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "E:/CMake/share/cmake-4.3/Modules/"
+    found: "E:/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "D:\\adb\\platform-tools\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "E:\\nodejs\\"
+        - "E:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "E:\\CMake\\bin"
+        - "E:\\Python\\Scripts\\"
+        - "E:\\Python\\"
+        - "C:\\Users\\ZZS\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "E:\\PyCharm 2022.3.3\\bin"
+        - "E:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\ZZS\\AppData\\Roaming\\npm"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      閫傜敤浜?.NET Framework MSBuild 鐗堟湰 18.3.0-release-26070-10+3972042b7
+      鐢熸垚鍚姩鏃堕棿涓?2026/3/17 16:03:58銆?
+      
+      鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\Users\\ZZS\\Desktop\\bky\\pybind_dll_宸ョ▼鐗圽build\\CMakeFiles\\4.3.0-rc3\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)銆?
+      PrepareForBuild:
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\鈥濄€?
+        宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\CompilerIdCXX.tlog\\鈥濄€?
+      InitializeBuildStatus:
+        姝ｅ湪鍒涘缓鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+      ClCompile:
+        E:\\VisualStudio\\community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        E:\\VisualStudio\\community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\ZZS\\Desktop\\bky\\pybind_dll_宸ョ▼鐗圽build\\CMakeFiles\\4.3.0-rc3\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=E:\\VisualStudio\\community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        姝ｅ湪鍒犻櫎鏂囦欢鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+      宸插畬鎴愮敓鎴愰」鐩€淐:\\Users\\ZZS\\Desktop\\bky\\pybind_dll_宸ョ▼鐗圽build\\CMakeFiles\\4.3.0-rc3\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+      
+      宸叉垚鍔熺敓鎴愩€?
+          0 涓鍛?
+          0 涓敊璇?
+      
+      宸茬敤鏃堕棿 00:00:01.40
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/ZZS/Desktop/bky/pybind_dll_工程版/build/CMakeFiles/4.3.0-rc3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "E:/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "E:/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "E:/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "E:/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "E:/VisualStudio/community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/adb/platform-tools/"
+      - "C:/Program Files/Git/cmd/"
+      - "E:/nodejs/"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/"
+      - "E:/CMake/bin/"
+      - "E:/Python/Scripts/"
+      - "E:/Python/"
+      - "C:/Users/ZZS/AppData/Local/Microsoft/WindowsApps/"
+      - "E:/PyCharm 2022.3.3/bin/"
+      - "E:/Microsoft VS Code/bin/"
+      - "C:/Users/ZZS/AppData/Roaming/npm/"
+    searched_directories:
+      - "E:/VisualStudio/community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.com"
+      - "E:/VisualStudio/community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.exe"
+      - "E:/VisualStudio/community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "D:/adb/platform-tools/lld-link.com"
+      - "D:/adb/platform-tools/lld-link.exe"
+      - "D:/adb/platform-tools/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "E:/nodejs/lld-link.com"
+      - "E:/nodejs/lld-link.exe"
+      - "E:/nodejs/lld-link"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "E:/CMake/bin/lld-link.com"
+      - "E:/CMake/bin/lld-link.exe"
+      - "E:/CMake/bin/lld-link"
+      - "E:/Python/Scripts/lld-link.com"
+      - "E:/Python/Scripts/lld-link.exe"
+      - "E:/Python/Scripts/lld-link"
+      - "E:/Python/lld-link.com"
+      - "E:/Python/lld-link.exe"
+      - "E:/Python/lld-link"
+      - "C:/Users/ZZS/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/ZZS/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/ZZS/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "E:/PyCharm 2022.3.3/bin/lld-link.com"
+      - "E:/PyCharm 2022.3.3/bin/lld-link.exe"
+      - "E:/PyCharm 2022.3.3/bin/lld-link"
+      - "E:/Microsoft VS Code/bin/lld-link.com"
+      - "E:/Microsoft VS Code/bin/lld-link.exe"
+      - "E:/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/ZZS/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/ZZS/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/ZZS/AppData/Roaming/npm/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "D:\\adb\\platform-tools\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "E:\\nodejs\\"
+        - "E:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "E:\\CMake\\bin"
+        - "E:\\Python\\Scripts\\"
+        - "E:\\Python\\"
+        - "C:\\Users\\ZZS\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "E:\\PyCharm 2022.3.3\\bin"
+        - "E:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\ZZS\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "E:/CMake/share/cmake-4.3/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "E:/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC.cmake:583 (enable_language)"
+      - "E:/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC.cmake:556 (__windows_compiler_msvc_enable_rc)"
+      - "E:/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
+      - "E:/CMake/share/cmake-4.3/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/adb/platform-tools/"
+      - "C:/Program Files/Git/cmd/"
+      - "E:/nodejs/"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/"
+      - "E:/CMake/bin/"
+      - "E:/Python/Scripts/"
+      - "E:/Python/"
+      - "C:/Users/ZZS/AppData/Local/Microsoft/WindowsApps/"
+      - "E:/PyCharm 2022.3.3/bin/"
+      - "E:/Microsoft VS Code/bin/"
+      - "C:/Users/ZZS/AppData/Roaming/npm/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "E:/CMake/bin/"
+      - "E:/CMake/sbin/"
+      - "E:/CMake/"
+      - "C:/Program Files (x86)/algo_plugin/bin/"
+      - "C:/Program Files (x86)/algo_plugin/sbin/"
+      - "C:/Program Files (x86)/algo_plugin/"
+    searched_directories:
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "D:/adb/platform-tools/rc.com"
+      - "D:/adb/platform-tools/rc.exe"
+      - "D:/adb/platform-tools/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "E:/nodejs/rc.com"
+      - "E:/nodejs/rc.exe"
+      - "E:/nodejs/rc"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/rc.com"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/rc.exe"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/rc"
+      - "E:/CMake/bin/rc.com"
+      - "E:/CMake/bin/rc.exe"
+      - "E:/CMake/bin/rc"
+      - "E:/Python/Scripts/rc.com"
+      - "E:/Python/Scripts/rc.exe"
+      - "E:/Python/Scripts/rc"
+      - "E:/Python/rc.com"
+      - "E:/Python/rc.exe"
+      - "E:/Python/rc"
+      - "C:/Users/ZZS/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/ZZS/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/ZZS/AppData/Local/Microsoft/WindowsApps/rc"
+      - "E:/PyCharm 2022.3.3/bin/rc.com"
+      - "E:/PyCharm 2022.3.3/bin/rc.exe"
+      - "E:/PyCharm 2022.3.3/bin/rc"
+      - "E:/Microsoft VS Code/bin/rc.com"
+      - "E:/Microsoft VS Code/bin/rc.exe"
+      - "E:/Microsoft VS Code/bin/rc"
+      - "C:/Users/ZZS/AppData/Roaming/npm/rc.com"
+      - "C:/Users/ZZS/AppData/Roaming/npm/rc.exe"
+      - "C:/Users/ZZS/AppData/Roaming/npm/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "E:/CMake/bin/rc.com"
+      - "E:/CMake/bin/rc.exe"
+      - "E:/CMake/bin/rc"
+      - "E:/CMake/sbin/rc.com"
+      - "E:/CMake/sbin/rc.exe"
+      - "E:/CMake/sbin/rc"
+      - "E:/CMake/rc.com"
+      - "E:/CMake/rc.exe"
+      - "E:/CMake/rc"
+      - "C:/Program Files (x86)/algo_plugin/bin/rc.com"
+      - "C:/Program Files (x86)/algo_plugin/bin/rc.exe"
+      - "C:/Program Files (x86)/algo_plugin/bin/rc"
+      - "C:/Program Files (x86)/algo_plugin/sbin/rc.com"
+      - "C:/Program Files (x86)/algo_plugin/sbin/rc.exe"
+      - "C:/Program Files (x86)/algo_plugin/sbin/rc"
+      - "C:/Program Files (x86)/algo_plugin/rc.com"
+      - "C:/Program Files (x86)/algo_plugin/rc.exe"
+      - "C:/Program Files (x86)/algo_plugin/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "D:\\adb\\platform-tools\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "E:\\nodejs\\"
+        - "E:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "E:\\CMake\\bin"
+        - "E:\\Python\\Scripts\\"
+        - "E:\\Python\\"
+        - "C:\\Users\\ZZS\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "E:\\PyCharm 2022.3.3\\bin"
+        - "E:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\ZZS\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/algo_plugin"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "E:/CMake"
+        - "C:/Program Files (x86)/algo_plugin"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "E:/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/ZZS/Desktop/bky/pybind_dll_\u5de5\u7a0b\u7248/build/CMakeFiles/CMakeScratch/TryCompile-e2lkzn"
+      binary: "C:/Users/ZZS/Desktop/bky/pybind_dll_\u5de5\u7a0b\u7248/build/CMakeFiles/CMakeScratch/TryCompile-e2lkzn"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ZZS/Desktop/bky/pybind_dll_工程版/build/CMakeFiles/CMakeScratch/TryCompile-e2lkzn'
+        
+        Run Build Command(s): E:/VisualStudio/community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_22b99.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 18.3.0-release-26070-10+3972042b7
+        鐢熸垚鍚姩鏃堕棿涓?2026/3/17 16:04:01銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\Users\\ZZS\\Desktop\\bky\\pybind_dll_宸ョ▼鐗圽build\\CMakeFiles\\CMakeScratch\\TryCompile-e2lkzn\\cmTC_22b99.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淐:\\Users\\ZZS\\Desktop\\bky\\pybind_dll_宸ョ▼鐗圽build\\CMakeFiles\\CMakeScratch\\TryCompile-e2lkzn\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_22b99.dir\\Debug\\cmTC_22b99.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_22b99.dir\\Debug\\cmTC_22b99.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_22b99.dir\\Debug\\cmTC_22b99.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          E:\\VisualStudio\\community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_22b99.dir\\Debug\\\\" /Fd"cmTC_22b99.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "E:\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.50.35725 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_22b99.dir\\Debug\\\\" /Fd"cmTC_22b99.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "E:\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          E:\\VisualStudio\\community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\ZZS\\Desktop\\bky\\pybind_dll_宸ョ▼鐗圽build\\CMakeFiles\\CMakeScratch\\TryCompile-e2lkzn\\Debug\\cmTC_22b99.exe" /INCREMENTAL /ILK:"cmTC_22b99.dir\\Debug\\cmTC_22b99.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ZZS/Desktop/bky/pybind_dll_宸ョ▼鐗?build/CMakeFiles/CMakeScratch/TryCompile-e2lkzn/Debug/cmTC_22b99.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/ZZS/Desktop/bky/pybind_dll_宸ョ▼鐗?build/CMakeFiles/CMakeScratch/TryCompile-e2lkzn/Debug/cmTC_22b99.lib" /MACHINE:X64  /machine:x64 cmTC_22b99.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_22b99.vcxproj -> C:\\Users\\ZZS\\Desktop\\bky\\pybind_dll_宸ョ▼鐗圽build\\CMakeFiles\\CMakeScratch\\TryCompile-e2lkzn\\Debug\\cmTC_22b99.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_22b99.dir\\Debug\\cmTC_22b99.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_22b99.dir\\Debug\\cmTC_22b99.tlog\\cmTC_22b99.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淐:\\Users\\ZZS\\Desktop\\bky\\pybind_dll_宸ョ▼鐗圽build\\CMakeFiles\\CMakeScratch\\TryCompile-e2lkzn\\cmTC_22b99.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.21
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "E:/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': E:/VisualStudio/community/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CMake/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "E:/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "E:/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "E:/VisualStudio/community/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.50.35725.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "E:/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/ZZS/Desktop/bky/pybind_dll_\u5de5\u7a0b\u7248/build/CMakeFiles/CMakeScratch/TryCompile-57vugu"
+      binary: "C:/Users/ZZS/Desktop/bky/pybind_dll_\u5de5\u7a0b\u7248/build/CMakeFiles/CMakeScratch/TryCompile-57vugu"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ZZS/Desktop/bky/pybind_dll_工程版/build/CMakeFiles/CMakeScratch/TryCompile-57vugu'
+        
+        Run Build Command(s): E:/VisualStudio/community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_c9959.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 18.3.0-release-26070-10+3972042b7
+        鐢熸垚鍚姩鏃堕棿涓?2026/3/17 16:04:02銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\Users\\ZZS\\Desktop\\bky\\pybind_dll_宸ョ▼鐗圽build\\CMakeFiles\\CMakeScratch\\TryCompile-57vugu\\cmTC_c9959.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淐:\\Users\\ZZS\\Desktop\\bky\\pybind_dll_宸ョ▼鐗圽build\\CMakeFiles\\CMakeScratch\\TryCompile-57vugu\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_c9959.dir\\Debug\\cmTC_c9959.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_c9959.dir\\Debug\\cmTC_c9959.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_c9959.dir\\Debug\\cmTC_c9959.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          E:\\VisualStudio\\community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_c9959.dir\\Debug\\\\" /Fd"cmTC_c9959.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "E:\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.50.35725 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_c9959.dir\\Debug\\\\" /Fd"cmTC_c9959.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "E:\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          E:\\VisualStudio\\community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\ZZS\\Desktop\\bky\\pybind_dll_宸ョ▼鐗圽build\\CMakeFiles\\CMakeScratch\\TryCompile-57vugu\\Debug\\cmTC_c9959.exe" /INCREMENTAL /ILK:"cmTC_c9959.dir\\Debug\\cmTC_c9959.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ZZS/Desktop/bky/pybind_dll_宸ョ▼鐗?build/CMakeFiles/CMakeScratch/TryCompile-57vugu/Debug/cmTC_c9959.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/ZZS/Desktop/bky/pybind_dll_宸ョ▼鐗?build/CMakeFiles/CMakeScratch/TryCompile-57vugu/Debug/cmTC_c9959.lib" /MACHINE:X64  /machine:x64 cmTC_c9959.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_c9959.vcxproj -> C:\\Users\\ZZS\\Desktop\\bky\\pybind_dll_宸ョ▼鐗圽build\\CMakeFiles\\CMakeScratch\\TryCompile-57vugu\\Debug\\cmTC_c9959.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_c9959.dir\\Debug\\cmTC_c9959.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_c9959.dir\\Debug\\cmTC_c9959.tlog\\cmTC_c9959.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淐:\\Users\\ZZS\\Desktop\\bky\\pybind_dll_宸ョ▼鐗圽build\\CMakeFiles\\CMakeScratch\\TryCompile-57vugu\\cmTC_c9959.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.93
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "E:/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': E:/VisualStudio/community/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CMake/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "E:/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "E:/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "E:/VisualStudio/community/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.50.35725.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "find-v1"
+    backtrace:
+      - "E:/CMake/share/cmake-4.3/Modules/FindPythonInterp.cmake:144 (find_program)"
+      - "E:/Python/Lib/site-packages/pybind11/share/cmake/pybind11/FindPythonLibsNew.cmake:114 (find_package)"
+      - "E:/Python/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Tools.cmake:44 (find_package)"
+      - "E:/Python/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Common.cmake:237 (include)"
+      - "E:/Python/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Config.cmake:257 (include)"
+      - "CMakeLists.txt:8 (find_package)"
+    mode: "program"
+    variable: "PYTHON_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python3.8"
+      - "python3"
+    candidate_directories:
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/adb/platform-tools/"
+      - "C:/Program Files/Git/cmd/"
+      - "E:/nodejs/"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/"
+      - "E:/CMake/bin/"
+      - "E:/Python/Scripts/"
+      - "E:/Python/"
+      - "C:/Users/ZZS/AppData/Local/Microsoft/WindowsApps/"
+      - "E:/PyCharm 2022.3.3/bin/"
+      - "E:/Microsoft VS Code/bin/"
+      - "C:/Users/ZZS/AppData/Roaming/npm/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "E:/CMake/bin/"
+      - "E:/CMake/sbin/"
+      - "E:/CMake/"
+      - "C:/Program Files (x86)/algo_plugin/bin/"
+      - "C:/Program Files (x86)/algo_plugin/sbin/"
+      - "C:/Program Files (x86)/algo_plugin/"
+    searched_directories:
+      - "C:/Windows/System32/python3.8.com"
+      - "C:/Windows/System32/python3.8.exe"
+      - "C:/Windows/System32/python3.8"
+      - "C:/Windows/python3.8.com"
+      - "C:/Windows/python3.8.exe"
+      - "C:/Windows/python3.8"
+      - "C:/Windows/System32/wbem/python3.8.com"
+      - "C:/Windows/System32/wbem/python3.8.exe"
+      - "C:/Windows/System32/wbem/python3.8"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/python3.8.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/python3.8.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/python3.8"
+      - "C:/Windows/System32/OpenSSH/python3.8.com"
+      - "C:/Windows/System32/OpenSSH/python3.8.exe"
+      - "C:/Windows/System32/OpenSSH/python3.8"
+      - "D:/adb/platform-tools/python3.8.com"
+      - "D:/adb/platform-tools/python3.8.exe"
+      - "D:/adb/platform-tools/python3.8"
+      - "C:/Program Files/Git/cmd/python3.8.com"
+      - "C:/Program Files/Git/cmd/python3.8.exe"
+      - "C:/Program Files/Git/cmd/python3.8"
+      - "E:/nodejs/python3.8.com"
+      - "E:/nodejs/python3.8.exe"
+      - "E:/nodejs/python3.8"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/python3.8.com"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/python3.8.exe"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/python3.8"
+      - "E:/CMake/bin/python3.8.com"
+      - "E:/CMake/bin/python3.8.exe"
+      - "E:/CMake/bin/python3.8"
+      - "E:/Python/Scripts/python3.8.com"
+      - "E:/Python/Scripts/python3.8.exe"
+      - "E:/Python/Scripts/python3.8"
+      - "E:/Python/python3.8.com"
+      - "E:/Python/python3.8.exe"
+      - "E:/Python/python3.8"
+      - "C:/Users/ZZS/AppData/Local/Microsoft/WindowsApps/python3.8.com"
+      - "C:/Users/ZZS/AppData/Local/Microsoft/WindowsApps/python3.8.exe"
+      - "C:/Users/ZZS/AppData/Local/Microsoft/WindowsApps/python3.8"
+      - "E:/PyCharm 2022.3.3/bin/python3.8.com"
+      - "E:/PyCharm 2022.3.3/bin/python3.8.exe"
+      - "E:/PyCharm 2022.3.3/bin/python3.8"
+      - "E:/Microsoft VS Code/bin/python3.8.com"
+      - "E:/Microsoft VS Code/bin/python3.8.exe"
+      - "E:/Microsoft VS Code/bin/python3.8"
+      - "C:/Users/ZZS/AppData/Roaming/npm/python3.8.com"
+      - "C:/Users/ZZS/AppData/Roaming/npm/python3.8.exe"
+      - "C:/Users/ZZS/AppData/Roaming/npm/python3.8"
+      - "C:/Program Files/bin/python3.8.com"
+      - "C:/Program Files/bin/python3.8.exe"
+      - "C:/Program Files/bin/python3.8"
+      - "C:/Program Files/sbin/python3.8.com"
+      - "C:/Program Files/sbin/python3.8.exe"
+      - "C:/Program Files/sbin/python3.8"
+      - "C:/Program Files/python3.8.com"
+      - "C:/Program Files/python3.8.exe"
+      - "C:/Program Files/python3.8"
+      - "C:/Program Files (x86)/bin/python3.8.com"
+      - "C:/Program Files (x86)/bin/python3.8.exe"
+      - "C:/Program Files (x86)/bin/python3.8"
+      - "C:/Program Files (x86)/sbin/python3.8.com"
+      - "C:/Program Files (x86)/sbin/python3.8.exe"
+      - "C:/Program Files (x86)/sbin/python3.8"
+      - "C:/Program Files (x86)/python3.8.com"
+      - "C:/Program Files (x86)/python3.8.exe"
+      - "C:/Program Files (x86)/python3.8"
+      - "E:/CMake/bin/python3.8.com"
+      - "E:/CMake/bin/python3.8.exe"
+      - "E:/CMake/bin/python3.8"
+      - "E:/CMake/sbin/python3.8.com"
+      - "E:/CMake/sbin/python3.8.exe"
+      - "E:/CMake/sbin/python3.8"
+      - "E:/CMake/python3.8.com"
+      - "E:/CMake/python3.8.exe"
+      - "E:/CMake/python3.8"
+      - "C:/Program Files (x86)/algo_plugin/bin/python3.8.com"
+      - "C:/Program Files (x86)/algo_plugin/bin/python3.8.exe"
+      - "C:/Program Files (x86)/algo_plugin/bin/python3.8"
+      - "C:/Program Files (x86)/algo_plugin/sbin/python3.8.com"
+      - "C:/Program Files (x86)/algo_plugin/sbin/python3.8.exe"
+      - "C:/Program Files (x86)/algo_plugin/sbin/python3.8"
+      - "C:/Program Files (x86)/algo_plugin/python3.8.com"
+      - "C:/Program Files (x86)/algo_plugin/python3.8.exe"
+      - "C:/Program Files (x86)/algo_plugin/python3.8"
+      - "C:/Windows/System32/python3.com"
+      - "C:/Windows/System32/python3.exe"
+      - "C:/Windows/System32/python3"
+      - "C:/Windows/python3.com"
+      - "C:/Windows/python3.exe"
+      - "C:/Windows/python3"
+      - "C:/Windows/System32/wbem/python3.com"
+      - "C:/Windows/System32/wbem/python3.exe"
+      - "C:/Windows/System32/wbem/python3"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/python3.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/python3.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/python3"
+      - "C:/Windows/System32/OpenSSH/python3.com"
+      - "C:/Windows/System32/OpenSSH/python3.exe"
+      - "C:/Windows/System32/OpenSSH/python3"
+      - "D:/adb/platform-tools/python3.com"
+      - "D:/adb/platform-tools/python3.exe"
+      - "D:/adb/platform-tools/python3"
+      - "C:/Program Files/Git/cmd/python3.com"
+      - "C:/Program Files/Git/cmd/python3.exe"
+      - "C:/Program Files/Git/cmd/python3"
+      - "E:/nodejs/python3.com"
+      - "E:/nodejs/python3.exe"
+      - "E:/nodejs/python3"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/python3.com"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/python3.exe"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/python3"
+      - "E:/CMake/bin/python3.com"
+      - "E:/CMake/bin/python3.exe"
+      - "E:/CMake/bin/python3"
+      - "E:/Python/Scripts/python3.com"
+      - "E:/Python/Scripts/python3.exe"
+      - "E:/Python/Scripts/python3"
+      - "E:/Python/python3.com"
+      - "E:/Python/python3.exe"
+      - "E:/Python/python3"
+      - "C:/Users/ZZS/AppData/Local/Microsoft/WindowsApps/python3.com"
+      - "C:/Users/ZZS/AppData/Local/Microsoft/WindowsApps/python3.exe"
+      - "C:/Users/ZZS/AppData/Local/Microsoft/WindowsApps/python3"
+      - "E:/PyCharm 2022.3.3/bin/python3.com"
+      - "E:/PyCharm 2022.3.3/bin/python3.exe"
+      - "E:/PyCharm 2022.3.3/bin/python3"
+      - "E:/Microsoft VS Code/bin/python3.com"
+      - "E:/Microsoft VS Code/bin/python3.exe"
+      - "E:/Microsoft VS Code/bin/python3"
+      - "C:/Users/ZZS/AppData/Roaming/npm/python3.com"
+      - "C:/Users/ZZS/AppData/Roaming/npm/python3.exe"
+      - "C:/Users/ZZS/AppData/Roaming/npm/python3"
+      - "C:/Program Files/bin/python3.com"
+      - "C:/Program Files/bin/python3.exe"
+      - "C:/Program Files/bin/python3"
+      - "C:/Program Files/sbin/python3.com"
+      - "C:/Program Files/sbin/python3.exe"
+      - "C:/Program Files/sbin/python3"
+      - "C:/Program Files/python3.com"
+      - "C:/Program Files/python3.exe"
+      - "C:/Program Files/python3"
+      - "C:/Program Files (x86)/bin/python3.com"
+      - "C:/Program Files (x86)/bin/python3.exe"
+      - "C:/Program Files (x86)/bin/python3"
+      - "C:/Program Files (x86)/sbin/python3.com"
+      - "C:/Program Files (x86)/sbin/python3.exe"
+      - "C:/Program Files (x86)/sbin/python3"
+      - "C:/Program Files (x86)/python3.com"
+      - "C:/Program Files (x86)/python3.exe"
+      - "C:/Program Files (x86)/python3"
+      - "E:/CMake/bin/python3.com"
+      - "E:/CMake/bin/python3.exe"
+      - "E:/CMake/bin/python3"
+      - "E:/CMake/sbin/python3.com"
+      - "E:/CMake/sbin/python3.exe"
+      - "E:/CMake/sbin/python3"
+      - "E:/CMake/python3.com"
+      - "E:/CMake/python3.exe"
+      - "E:/CMake/python3"
+      - "C:/Program Files (x86)/algo_plugin/bin/python3.com"
+      - "C:/Program Files (x86)/algo_plugin/bin/python3.exe"
+      - "C:/Program Files (x86)/algo_plugin/bin/python3"
+      - "C:/Program Files (x86)/algo_plugin/sbin/python3.com"
+      - "C:/Program Files (x86)/algo_plugin/sbin/python3.exe"
+      - "C:/Program Files (x86)/algo_plugin/sbin/python3"
+      - "C:/Program Files (x86)/algo_plugin/python3.com"
+      - "C:/Program Files (x86)/algo_plugin/python3.exe"
+      - "C:/Program Files (x86)/algo_plugin/python3"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "D:\\adb\\platform-tools\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "E:\\nodejs\\"
+        - "E:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "E:\\CMake\\bin"
+        - "E:\\Python\\Scripts\\"
+        - "E:\\Python\\"
+        - "C:\\Users\\ZZS\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "E:\\PyCharm 2022.3.3\\bin"
+        - "E:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\ZZS\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/algo_plugin"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "E:/CMake"
+        - "C:/Program Files (x86)/algo_plugin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "E:/CMake/share/cmake-4.3/Modules/FindPythonInterp.cmake:174 (find_program)"
+      - "E:/Python/Lib/site-packages/pybind11/share/cmake/pybind11/FindPythonLibsNew.cmake:114 (find_package)"
+      - "E:/Python/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Tools.cmake:44 (find_package)"
+      - "E:/Python/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Common.cmake:237 (include)"
+      - "E:/Python/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Config.cmake:257 (include)"
+      - "CMakeLists.txt:8 (find_package)"
+    mode: "program"
+    variable: "PYTHON_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "python3.12"
+      - "python"
+    candidate_directories:
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/adb/platform-tools/"
+      - "C:/Program Files/Git/cmd/"
+      - "E:/nodejs/"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/"
+      - "E:/CMake/bin/"
+      - "E:/Python/Scripts/"
+      - "E:/Python/"
+      - "C:/Users/ZZS/AppData/Local/Microsoft/WindowsApps/"
+      - "E:/PyCharm 2022.3.3/bin/"
+      - "E:/Microsoft VS Code/bin/"
+      - "C:/Users/ZZS/AppData/Roaming/npm/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "E:/CMake/bin/"
+      - "E:/CMake/sbin/"
+      - "E:/CMake/"
+      - "C:/Program Files (x86)/algo_plugin/bin/"
+      - "C:/Program Files (x86)/algo_plugin/sbin/"
+      - "C:/Program Files (x86)/algo_plugin/"
+      - "/REGISTRY-NOTFOUND/"
+    searched_directories:
+      - "C:/Windows/System32/python3.12.com"
+      - "C:/Windows/System32/python3.12.exe"
+      - "C:/Windows/System32/python3.12"
+      - "C:/Windows/python3.12.com"
+      - "C:/Windows/python3.12.exe"
+      - "C:/Windows/python3.12"
+      - "C:/Windows/System32/wbem/python3.12.com"
+      - "C:/Windows/System32/wbem/python3.12.exe"
+      - "C:/Windows/System32/wbem/python3.12"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/python3.12.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/python3.12.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/python3.12"
+      - "C:/Windows/System32/OpenSSH/python3.12.com"
+      - "C:/Windows/System32/OpenSSH/python3.12.exe"
+      - "C:/Windows/System32/OpenSSH/python3.12"
+      - "D:/adb/platform-tools/python3.12.com"
+      - "D:/adb/platform-tools/python3.12.exe"
+      - "D:/adb/platform-tools/python3.12"
+      - "C:/Program Files/Git/cmd/python3.12.com"
+      - "C:/Program Files/Git/cmd/python3.12.exe"
+      - "C:/Program Files/Git/cmd/python3.12"
+      - "E:/nodejs/python3.12.com"
+      - "E:/nodejs/python3.12.exe"
+      - "E:/nodejs/python3.12"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/python3.12.com"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/python3.12.exe"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/python3.12"
+      - "E:/CMake/bin/python3.12.com"
+      - "E:/CMake/bin/python3.12.exe"
+      - "E:/CMake/bin/python3.12"
+      - "E:/Python/Scripts/python3.12.com"
+      - "E:/Python/Scripts/python3.12.exe"
+      - "E:/Python/Scripts/python3.12"
+      - "E:/Python/python3.12.com"
+      - "E:/Python/python3.12.exe"
+      - "E:/Python/python3.12"
+      - "C:/Users/ZZS/AppData/Local/Microsoft/WindowsApps/python3.12.com"
+      - "C:/Users/ZZS/AppData/Local/Microsoft/WindowsApps/python3.12.exe"
+      - "C:/Users/ZZS/AppData/Local/Microsoft/WindowsApps/python3.12"
+      - "E:/PyCharm 2022.3.3/bin/python3.12.com"
+      - "E:/PyCharm 2022.3.3/bin/python3.12.exe"
+      - "E:/PyCharm 2022.3.3/bin/python3.12"
+      - "E:/Microsoft VS Code/bin/python3.12.com"
+      - "E:/Microsoft VS Code/bin/python3.12.exe"
+      - "E:/Microsoft VS Code/bin/python3.12"
+      - "C:/Users/ZZS/AppData/Roaming/npm/python3.12.com"
+      - "C:/Users/ZZS/AppData/Roaming/npm/python3.12.exe"
+      - "C:/Users/ZZS/AppData/Roaming/npm/python3.12"
+      - "C:/Program Files/bin/python3.12.com"
+      - "C:/Program Files/bin/python3.12.exe"
+      - "C:/Program Files/bin/python3.12"
+      - "C:/Program Files/sbin/python3.12.com"
+      - "C:/Program Files/sbin/python3.12.exe"
+      - "C:/Program Files/sbin/python3.12"
+      - "C:/Program Files/python3.12.com"
+      - "C:/Program Files/python3.12.exe"
+      - "C:/Program Files/python3.12"
+      - "C:/Program Files (x86)/bin/python3.12.com"
+      - "C:/Program Files (x86)/bin/python3.12.exe"
+      - "C:/Program Files (x86)/bin/python3.12"
+      - "C:/Program Files (x86)/sbin/python3.12.com"
+      - "C:/Program Files (x86)/sbin/python3.12.exe"
+      - "C:/Program Files (x86)/sbin/python3.12"
+      - "C:/Program Files (x86)/python3.12.com"
+      - "C:/Program Files (x86)/python3.12.exe"
+      - "C:/Program Files (x86)/python3.12"
+      - "E:/CMake/bin/python3.12.com"
+      - "E:/CMake/bin/python3.12.exe"
+      - "E:/CMake/bin/python3.12"
+      - "E:/CMake/sbin/python3.12.com"
+      - "E:/CMake/sbin/python3.12.exe"
+      - "E:/CMake/sbin/python3.12"
+      - "E:/CMake/python3.12.com"
+      - "E:/CMake/python3.12.exe"
+      - "E:/CMake/python3.12"
+      - "C:/Program Files (x86)/algo_plugin/bin/python3.12.com"
+      - "C:/Program Files (x86)/algo_plugin/bin/python3.12.exe"
+      - "C:/Program Files (x86)/algo_plugin/bin/python3.12"
+      - "C:/Program Files (x86)/algo_plugin/sbin/python3.12.com"
+      - "C:/Program Files (x86)/algo_plugin/sbin/python3.12.exe"
+      - "C:/Program Files (x86)/algo_plugin/sbin/python3.12"
+      - "C:/Program Files (x86)/algo_plugin/python3.12.com"
+      - "C:/Program Files (x86)/algo_plugin/python3.12.exe"
+      - "C:/Program Files (x86)/algo_plugin/python3.12"
+      - "/REGISTRY-NOTFOUND/python3.12.com"
+      - "/REGISTRY-NOTFOUND/python3.12.exe"
+      - "/REGISTRY-NOTFOUND/python3.12"
+      - "C:/Windows/System32/python.com"
+      - "C:/Windows/System32/python.exe"
+      - "C:/Windows/System32/python"
+      - "C:/Windows/python.com"
+      - "C:/Windows/python.exe"
+      - "C:/Windows/python"
+      - "C:/Windows/System32/wbem/python.com"
+      - "C:/Windows/System32/wbem/python.exe"
+      - "C:/Windows/System32/wbem/python"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/python.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/python.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/python"
+      - "C:/Windows/System32/OpenSSH/python.com"
+      - "C:/Windows/System32/OpenSSH/python.exe"
+      - "C:/Windows/System32/OpenSSH/python"
+      - "D:/adb/platform-tools/python.com"
+      - "D:/adb/platform-tools/python.exe"
+      - "D:/adb/platform-tools/python"
+      - "C:/Program Files/Git/cmd/python.com"
+      - "C:/Program Files/Git/cmd/python.exe"
+      - "C:/Program Files/Git/cmd/python"
+      - "E:/nodejs/python.com"
+      - "E:/nodejs/python.exe"
+      - "E:/nodejs/python"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/python.com"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/python.exe"
+      - "E:/Windows Kits/10/Windows Performance Toolkit/python"
+      - "E:/CMake/bin/python.com"
+      - "E:/CMake/bin/python.exe"
+      - "E:/CMake/bin/python"
+      - "E:/Python/Scripts/python.com"
+      - "E:/Python/Scripts/python.exe"
+      - "E:/Python/Scripts/python"
+      - "E:/Python/python.com"
+    found: "E:/Python/python.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "D:\\adb\\platform-tools\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "E:\\nodejs\\"
+        - "E:\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "E:\\CMake\\bin"
+        - "E:\\Python\\Scripts\\"
+        - "E:\\Python\\"
+        - "C:\\Users\\ZZS\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "E:\\PyCharm 2022.3.3\\bin"
+        - "E:\\Microsoft VS Code\\bin"
+        - "C:\\Users\\ZZS\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/algo_plugin"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "E:/CMake"
+        - "C:/Program Files (x86)/algo_plugin"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CMake/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "E:/CMake/share/cmake-4.3/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "E:/CMake/share/cmake-4.3/Modules/CheckCXXCompilerFlag.cmake:103 (cmake_check_compiler_flag)"
+      - "E:/Python/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Common.cmake:332 (check_cxx_compiler_flag)"
+      - "E:/Python/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Common.cmake:404 (_pybind11_return_if_cxx_and_linker_flags_work)"
+      - "E:/Python/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Common.cmake:438 (_pybind11_generate_lto)"
+      - "E:/Python/Lib/site-packages/pybind11/share/cmake/pybind11/pybind11Config.cmake:257 (include)"
+      - "CMakeLists.txt:8 (find_package)"
+    checks:
+      - "Performing Test HAS_MSVC_GL_LTCG"
+    directories:
+      source: "C:/Users/ZZS/Desktop/bky/pybind_dll_\u5de5\u7a0b\u7248/build/CMakeFiles/CMakeScratch/TryCompile-hrg4h9"
+      binary: "C:/Users/ZZS/Desktop/bky/pybind_dll_\u5de5\u7a0b\u7248/build/CMakeFiles/CMakeScratch/TryCompile-hrg4h9"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "HAS_MSVC_GL_LTCG"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ZZS/Desktop/bky/pybind_dll_工程版/build/CMakeFiles/CMakeScratch/TryCompile-hrg4h9'
+        
+        Run Build Command(s): E:/VisualStudio/community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_b2fce.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 18.3.0-release-26070-10+3972042b7
+        鐢熸垚鍚姩鏃堕棿涓?2026/3/17 16:04:04銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\Users\\ZZS\\Desktop\\bky\\pybind_dll_宸ョ▼鐗圽build\\CMakeFiles\\CMakeScratch\\TryCompile-hrg4h9\\cmTC_b2fce.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淐:\\Users\\ZZS\\Desktop\\bky\\pybind_dll_宸ョ▼鐗圽build\\CMakeFiles\\CMakeScratch\\TryCompile-hrg4h9\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_b2fce.dir\\Debug\\cmTC_b2fce.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_b2fce.dir\\Debug\\cmTC_b2fce.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_b2fce.dir\\Debug\\cmTC_b2fce.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          E:\\VisualStudio\\community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /std:c++17 /Fo"cmTC_b2fce.dir\\Debug\\\\" /Fd"cmTC_b2fce.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\ZZS\\Desktop\\bky\\pybind_dll_宸ョ▼鐗圽build\\CMakeFiles\\CMakeScratch\\TryCompile-hrg4h9\\src.cxx"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.50.35725 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /std:c++17 /Fo"cmTC_b2fce.dir\\Debug\\\\" /Fd"cmTC_b2fce.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Users\\ZZS\\Desktop\\bky\\pybind_dll_宸ョ▼鐗圽build\\CMakeFiles\\CMakeScratch\\TryCompile-hrg4h9\\src.cxx"
+          src.cxx
+        Link:
+          E:\\VisualStudio\\community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\ZZS\\Desktop\\bky\\pybind_dll_宸ョ▼鐗圽build\\CMakeFiles\\CMakeScratch\\TryCompile-hrg4h9\\Debug\\cmTC_b2fce.exe" /INCREMENTAL /ILK:"cmTC_b2fce.dir\\Debug\\cmTC_b2fce.ilk" /NOLOGO "-LTCG" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ZZS/Desktop/bky/pybind_dll_宸ョ▼鐗?build/CMakeFiles/CMakeScratch/TryCompile-hrg4h9/Debug/cmTC_b2fce.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/ZZS/Desktop/bky/pybind_dll_宸ョ▼鐗?build/CMakeFiles/CMakeScratch/TryCompile-hrg4h9/Debug/cmTC_b2fce.lib" /MACHINE:X64  /machine:x64 cmTC_b2fce.dir\\Debug\\src.obj
+        LINK : warning LNK4075: 蹇界暐鈥?INCREMENTAL鈥?鐢变簬鈥?LTCG鈥濊鑼? [C:\\Users\\ZZS\\Desktop\\bky\\pybind_dll_宸ョ▼鐗圽build\\CMakeFiles\\CMakeScratch\\TryCompile-hrg4h9\\cmTC_b2fce.vcxproj]
+          姝ｅ湪鐢熸垚浠ｇ爜
+          宸插畬鎴愪唬鐮佺殑鐢熸垚
+          cmTC_b2fce.vcxproj -> C:\\Users\\ZZS\\Desktop\\bky\\pybind_dll_宸ョ▼鐗圽build\\CMakeFiles\\CMakeScratch\\TryCompile-hrg4h9\\Debug\\cmTC_b2fce.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_b2fce.dir\\Debug\\cmTC_b2fce.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_b2fce.dir\\Debug\\cmTC_b2fce.tlog\\cmTC_b2fce.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淐:\\Users\\ZZS\\Desktop\\bky\\pybind_dll_宸ョ▼鐗圽build\\CMakeFiles\\CMakeScratch\\TryCompile-hrg4h9\\cmTC_b2fce.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+        
+        鈥淐:\\Users\\ZZS\\Desktop\\bky\\pybind_dll_宸ョ▼鐗圽build\\CMakeFiles\\CMakeScratch\\TryCompile-hrg4h9\\cmTC_b2fce.vcxproj鈥?榛樿鐩爣) (1) ->
+        (Link 鐩爣) -> 
+          LINK : warning LNK4075: 蹇界暐鈥?INCREMENTAL鈥?鐢变簬鈥?LTCG鈥濊鑼? [C:\\Users\\ZZS\\Desktop\\bky\\pybind_dll_宸ョ▼鐗圽build\\CMakeFiles\\CMakeScratch\\TryCompile-hrg4h9\\cmTC_b2fce.vcxproj]
+        
+            1 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.10
+        
+      exitCode: 0
+...
